@@ -1571,7 +1571,7 @@ header .video-container::after {
     font-size: 41px;
   }
   header .video-container {
-    height: 550px;
+    height: 600px;
   }
   .banner-text p {
     font-size: 14px;
@@ -1702,6 +1702,9 @@ header .video-container::after {
   .growth-counts .count-cols {
     margin-top: 30px;
   }
+  .video-container .banner-heading {
+    right: -180px;
+}
 }
 @media (max-width: 600px) {
   .profile-item {
@@ -1711,7 +1714,15 @@ header .video-container::after {
   .testimonial .item {
     padding: 30px 20px;
   }
+  .banner-text {
+      max-width: 80%;
+      transform: translateY(-40%);
+  }
+  .banner-text p{
+    margin: 10px 0 20px 0;
+  }
 }
+
 @media (max-width: 576px) {
   .primary-header .navbar-collapse {
     flex-basis: 100%;

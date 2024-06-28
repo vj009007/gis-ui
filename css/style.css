@@ -1753,8 +1753,12 @@ header .video-container::after {
   .primary-header nav> ul > li {
     margin: 0;
   }
-  .primary-header nav> ul > li:last-child{
+  .primary-header nav  ul > li:last-child{
     padding: 0 25px;
+  }
+  .primary-header nav .dropdown-menu  li {
+    padding: 0 !important;
+    margin: 0 !important;
   }
   .primary-header .navbar-nav .dropdown-menu {
     margin: 0;

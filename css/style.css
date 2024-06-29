@@ -171,7 +171,7 @@ header .video-container::after {
   rotate: -90deg;
   animation: fadeUp 1.5s;
 }
-.video-container .primary-button{
+.video-container .primary-button {
   animation: fadeInRight 2.5s;
 }
 .primary-header {
@@ -948,7 +948,7 @@ header .video-container::after {
   border-radius: 50%;
 }
 .testimonial-for .slick-arrow:hover,
-.slider-btn button:hover{
+.slider-btn button:hover {
   color: #f37009;
   border-color: #f37009;
 }
@@ -1306,15 +1306,15 @@ header .video-container::after {
 
 /********* Responsive All CSS ************/
 @media (max-width: 1400px) {
-  .primary-header nav ul > li > a{
+  .primary-header nav ul > li > a {
     font-size: 16px;
   }
-  .primary-header     .gap-xl-3 {
-    gap: .5rem !important;
-}
-.video-container .banner-heading{
-  right: -160px;
-}
+  .primary-header .gap-xl-3 {
+    gap: 0.5rem !important;
+  }
+  .video-container .banner-heading {
+    right: -160px;
+  }
 
 }
 @media (max-width: 1200px) {
@@ -1773,13 +1773,13 @@ header .video-container::after {
     color: #fdfdfd;
     padding: 10px 25px;
   }
-  .primary-header nav> ul > li {
+  .primary-header nav > ul > li {
     margin: 0;
   }
-  .primary-header nav  ul > li:last-child{
+  .primary-header nav ul > li:last-child {
     padding: 0 25px;
   }
-  .primary-header nav .dropdown-menu  li {
+  .primary-header nav .dropdown-menu li {
     padding: 0 !important;
     margin: 0 !important;
   }

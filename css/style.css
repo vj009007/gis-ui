@@ -66,6 +66,8 @@ a.primary-button img {
   top: -1px;
   left: 2px;
 }
+.nav-link:focus,
+a.primary-button:focus,
 a.primary-button:active,
 a.primary-button:hover {
   color: #f58726;

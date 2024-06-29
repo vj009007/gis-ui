@@ -1,4 +1,6 @@
-AOS.init();
+AOS.init({
+  offset: 10,
+});
 
 jQuery(document).ready(function ($) {
   // Logos slider
@@ -9,7 +11,7 @@ jQuery(document).ready(function ($) {
     slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 500,
     arrows: false,
     responsive: [
       {
